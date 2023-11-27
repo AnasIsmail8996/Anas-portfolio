@@ -1,0 +1,149 @@
+.Pro-parent{
+
+    background-color: #212121;
+    width: 101.65%;
+    height: 650px;
+    margin-left: -1%;
+    margin-top: -1.85%;
+}
+.Pro-Heading{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     text-align: center;   
+}
+.Pro-Heading h1{
+    font-size: 4rem;
+    font-weight: 800;
+     color: #545fc4;
+     font-family: poppins;
+
+}
+
+.Pro-Card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   gap: 1rem;
+   /* grid-column: 1/3;
+   grid-row: 1/3; */
+}
+
+.card-one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #545fc4;
+    width: 65%;
+    height: 335px;
+    margin-left: 8rem; 
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+.card-one h3{
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: poppoins;
+    margin-top: 0.55rem;
+}
+
+.card-one img{
+    width: 280px;
+    height: 380px;
+    margin-top: -4rem;
+}
+
+.Icon-Svg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 5rem;
+  color: #fff;
+}
+
+
+.Icon-Svg span img{
+  
+    width: 45px;
+    height: 45px;
+  color: #fff;
+    cursor: pointer;
+}
+
+.Icon-Svg span img:hover{
+  overflow: hidden;
+    border-radius: 100px;
+   background-color: #212121b5 ;
+    color: #fff;
+    transform: scale(1.2);
+}
+
+
+
+
+
+.card-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #545fc4;
+    width: 65%;
+    height: 335px;
+    margin-left: 4.25rem;
+    border-radius: 10px; 
+    cursor: pointer;
+}
+
+
+.card-two h3{
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: poppoins;
+    margin-top: 0.55rem;
+}
+
+.card-two img{
+    width: 245px;
+    height: 370px;
+    margin-top: -1rem;
+}
+
+
+
+
+
+
+
+.card-there{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #545fc4;
+    width: 65%;
+    height: 335px; 
+    gap: 2rem;
+    border-radius: 10px; 
+}
+.card-there h3{
+    color: #fff;
+    font-size: 1.25rem;
+    font-weight: 400;
+    font-family: poppoins;
+    margin-top: 0.55rem;
+}
+
+.card-there img{
+    width: 245px;
+    height: 370px;
+    margin-top: -1rem;
+}

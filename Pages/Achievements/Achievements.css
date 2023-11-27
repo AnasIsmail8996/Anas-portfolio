@@ -1,0 +1,115 @@
+.Achie-parent{
+    background-color: #212121;
+    width: 101.65%;
+    height: 650px;
+    margin-left: -1%;
+    margin-top: -1.85%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    
+}
+
+.Achie-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 250px;
+    margin-left: 5rem;
+    margin-top: 10rem;
+}
+
+.Achie-text h1{
+    font-size: 2.85rem;
+    font-weight: 700;
+    color: #545fc4;
+    font-family: poppins;
+}
+
+.Achie-text p{
+    font-family: "Caveat",cursive;
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #eaeaea
+    
+}
+
+
+/* Cards starting from here  */
+
+.Achie-Cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 0rem;
+}
+
+.Achie-Cards-One{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 8rem;
+    margin-right: 5rem;
+    width: 100%;
+    height: 150px;
+    background-color: #545fc480;
+    border-radius: 15px;
+}
+
+.Achie-Cards-One >   h4{
+   font-size: 22px;
+   font-weight: 500;
+   color: #eaeaea
+}
+
+.Achie-Cards-One p{
+    color: #eaeaea;
+   margin: 10px;
+   font-size: 22px;
+   font-weight: 500;
+    
+}
+
+
+
+
+.Achie-Cards-Two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+margin-top: 1rem;
+margin-right: 5rem;
+width: 100%;
+height: 150px;
+background-color: #545fc480;
+border-radius: 15px;
+cursor: pointer;
+
+}
+.Achie-Cards-Two a{
+    text-decoration: none;
+    color: #212121;
+    font-size: 22px;
+    font-weight: 900;
+}
+.Achie-Cards-Two:hover{
+   
+    background-color: #545fc4c4;
+}
+
+.Achie-Cards-Two >   h2{
+    font-size: 28px;
+    font-weight: 800;
+    color: #eaeaea
+ }
+ .Achie-Cards-Two h2:hover{
+  
+    color: #545fc4;
+ }

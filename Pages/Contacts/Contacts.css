@@ -1,0 +1,149 @@
+.Contact-Parent{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+
+
+    background-color: #212121;
+    width: 101.65%;
+    height: 750px;
+    margin-left: -1%;
+    margin-top: -1.85%
+}
+
+.Contact-Form{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items: center;
+}
+.Contact-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:-1rem ;
+   
+}
+.Contact-heading h1{
+ color: #545fc4;
+ font-size: 45px;
+ font-family: poppins;
+ font-weight: 900;
+ letter-spacing: 5px;
+
+}
+
+.Name-Custom {
+    color: #545fc4cc;
+    font-family: poppins;
+    font-weight: 500;
+    background-color: #212121;
+   margin-left: 3.25rem;
+   position: absolute;
+   margin-top: -0.85rem; 
+   text-shadow: 2px 2px 5px 10px rgba(10, 10, 10, 0.5); 
+   border-radius: 5px;
+}
+.input-form{
+    margin-right: 4rem;
+    width: 125%;
+    height: 55px;
+    border-radius: 10px;
+    border: 4px solid #545fc4cc;
+  
+   
+}
+
+.input-form:focus {
+    
+    border-color:   #4251d2cc;
+}
+
+.btn-Sent{
+margin-top: 3rem;
+width:6rem;
+height: 45px;
+margin-left: 0rem;
+background-color: #545fc4;
+border: none;
+border-radius: 30px;
+font-size: 18px;
+font-family: poppins;
+font-weight: 600;
+cursor: pointer;
+transition: background-color 0.5s ease, transform 0.5s ease;
+}
+.btn-Sent:hover{
+    transform: scale(1.2);
+    background-color: #eee;
+}
+
+.btn-Sent > img{
+  width: 25px;
+  height: 25px;
+  
+}
+.Contacts-Icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    gap: 5rem;
+  color: #fff;
+}
+
+.Contacts-Icon-One{
+    display: flex;
+    flex-direction: row;
+   justify-content: flex-start;
+   align-items: flex-end; 
+      
+}
+
+.Contacts-Icon-One p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    font-family: 20px;
+    font-family: poppins;
+    font-weight: 600;
+
+
+    
+}
+/* Icons  After Form  */
+.Icons-Form{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+    width:3.45rem;
+    height: 48px;
+    margin-right: 2.25rem;
+    background-color: #545fc4;
+    border: none;
+    border-radius: 30px;
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.5s ease; 
+}
+.Icons-Form:hover{
+    transform: scale(1.2);
+    background-color: #eee;
+}
+
+.Icons-Form > img{
+    margin-top:3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  width: 25px;
+  height: 25px;
+}

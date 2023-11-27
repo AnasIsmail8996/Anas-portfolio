@@ -1,0 +1,80 @@
+.Test-Parent{
+    background-color:#545fc4;
+    width: 101.65%;
+    height: 750px;
+    margin-left: -1%;
+    margin-top: -1.85%
+}
+
+.Test-Heading{
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    text-align: center;
+}
+.Test-Heading h1{
+    color: #212121;
+    font-family: poppins;
+    font-size: 3.25rem;
+      
+}
+
+.parent-Test{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25rem;
+    margin-top: 5rem;
+}
+
+.carousel-Imge{
+    position: absolute; 
+}
+.carousel-Imge img{
+    margin-top: -3rem;
+      margin-left: 16rem;
+    width: 80px;
+    height: 100px;
+} 
+ .carousel-One{
+    margin: 0 auto;
+    width: 38rem;
+    height: 250px;
+    border-radius: 200px;
+    box-sizing: border-box;
+    padding: 30px 40px;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; 
+    background-color: #212121;
+    margin-left: 0rem;
+}  
+.carousel-One p{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 300;
+    color: #fff;
+}
+
+.carousel-Imge-two{
+ position: absolute;   
+}
+.carousel-Imge-two img{
+    margin-bottom: 15rem;
+    margin-right: 21rem;
+    width: 80px;
+    height: 100px;
+}
+.carousel-Imge-there{
+    position: absolute;
+}
+.carousel-Imge-there img{
+    margin-bottom: 15rem;
+    margin-right: 21rem;
+    width: 80px;
+    height: 100px;
+
+}

@@ -1,0 +1,112 @@
+.Edu-Parent{
+    background-color: #212121;
+    width: 101.65%;
+    height: 510px;
+    margin-left: -1%;
+    margin-top: -1.85%;
+   display: grid;
+   grid-template-columns:70% 30%;
+   grid-template-rows: 500 500;
+   gap: 0%;
+}
+
+.edu-decs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 300px;
+    margin-top: 5%;
+    margin-left: 10%;
+
+}
+.edu-decs h1{
+    font-size: 3.2rem;
+    font-weight: 800;
+    color: #545fc4;
+    margin-left: -8rem;
+}
+.edu-decs > .box-one{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 8rem;
+    background-color: #545fc470;
+    width: 110%;
+    height: 140px;
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    transition: #545fc4 .2s ease-in-out;
+    
+}
+.edu-decs > .box-two{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-left: 8rem;
+    background-color: #545fc470;
+    width: 110%;
+    height: 140px;
+    padding: 1.5rem;
+    border-radius: 20px;
+    margin-bottom: 1.5rem;
+    transition: background-color .2s ease-in-out;
+}
+.edu-decs > .box-one  img{
+    background-color: #545fc4b7;
+    
+    border-radius: 10px;
+    width: 60px;
+    height: 45px;
+}
+.box-one span{
+    color: #545fc4;
+    margin-top: -15px;
+}
+
+.box-one p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+
+
+
+.edu-decs > .box-two  img{
+    background-color: #545fc4;
+    border-radius: 10px;
+    width: 60px;
+    height: 45px;
+}
+.box-two span{
+    color: #545fc4;
+    margin-top: -12px;
+}
+.box-two p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.box-one:hover{
+ background-color: #545fc4a6;
+ cursor: pointer;
+}
+.box-two:hover{
+    background-color: #545fc4a6;
+    cursor: pointer;
+   }
+
+.edu-icon{
+     margin-left: -5.85rem; 
+  /* margin-top: -10%; */
+}
+.edu-icon img{
+    width: 25rem;
+    
+}

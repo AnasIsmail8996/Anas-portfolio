@@ -1,0 +1,152 @@
+.Ser-Parent{
+    background-color: #212121;
+    width: 101.65%;
+    height: 750px;
+    margin-left: -1%;
+    margin-top: -1.85%;
+}
+.Ser-Heading-Text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.Ser-Heading-Text h1{
+  font-family: Poppins, sans-serif;
+  font-size: 56px;
+  font-weight: 700;
+  color:  #545fc4;
+  line-height: normal;
+}
+.Ser-Heading-Text p{
+    font-family: "Caveat",cursive;
+    font-weight: 400;
+    color:rgba(234, 234, 234, 0.8);
+    font-size:24px ;
+
+}
+
+.Card-Parent{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr ;
+    gap: 1rem;
+   margin-left: 5.55rem;
+}
+.card-One{
+   
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    background-color: #545fc4;
+    cursor: pointer;
+}
+.card-Two{
+    width: 140px;
+    cursor: pointer;
+    height: 140px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    background-color: #545fc4;   
+}
+.card-There{
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    background-color: #545fc4;
+    cursor: pointer;
+}
+.card-Four{  
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    background-color: #545fc4;
+    cursor: pointer;
+}
+.card-Five{
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    background-color: #545fc4;
+    cursor: pointer;
+}
+.card-Six{
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    background-color: #545fc4;
+    margin-right: -5rem;
+    cursor: pointer;
+}
+.card-Seven{
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    background-color: #545fc4;
+    cursor: pointer;
+}
+.card-Eight{
+    width: 140px;
+    height: 140px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.4rem;
+    background-color: #545fc4;
+    cursor: pointer;
+}
+.Card-img{
+    width: 65px;
+    height: 100px;
+    transition: transform 1s ease;
+}
+
+.Card-img:hover{
+  transform: translateY(-10px);
+ 
+  
+}
+.Card-Text{
+    color: aliceblue;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Poppins, sans-serif;
+    
+}
