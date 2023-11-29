@@ -1,5 +1,5 @@
 
-import { BrowserRouter as Router, Route, Routes, Navigate ,Switch} from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, Navigate } from 'react-router-dom';
 
 
 import Home from './Pages/Home/Home';
@@ -13,7 +13,7 @@ import Achievements from './Pages/Achievements/Achievements';
 import Services from './Pages/Services/Services';
 import Testimonials from './Pages/Testimonials/Testimonials';
 import Contacts from './Pages/Contacts/Contacts';
-import ScrollToTop from './Pages/ScrollToTop/ScrollToTop';
+
 const App = () => {
   return (
     <>
@@ -21,9 +21,9 @@ const App = () => {
 
       <Router>
         <Routes>
-        <ScrollToTop/>
+      
          
-        <Switch>
+      
             <Route path="/"  exact element={<Home />} />
             <Route path="/firstpage" element={<FirstPage />} />
             <Route path="/whoiam" element={<WhoIam />} />
@@ -37,7 +37,7 @@ const App = () => {
             <Route path="/contacts" element={<Contacts />} />
            
             <Route path="*" element={<Navigate to="/" />} />
-        </Switch>
+     
         
         </Routes>
       </Router>
